@@ -3,12 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField]
-    private Transform playerTrans;
-    [SerializeField]
-    private GameObject completeLevelUI;
-    [SerializeField]
-    private float restartDelay = 1;
+    [SerializeField] private Transform playerTrans;
+    [SerializeField] private GameObject completeLevelUI;
+    [SerializeField] private float restartDelay;
     private bool gameOver = false;
     private int finalScore;
 

@@ -2,8 +2,7 @@
 
 public class FinishLevel : MonoBehaviour
 {
-    [SerializeField]
-    private GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
 
     void OnTriggerEnter()
     {

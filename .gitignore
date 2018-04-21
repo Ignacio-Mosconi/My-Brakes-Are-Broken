@@ -4,3 +4,5 @@ Library/
 \.tmp\.drivedownload/
 
 Temp/
+
+\.vs/

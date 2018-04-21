@@ -3,10 +3,8 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    [SerializeField]
-    private Transform playerTrans;
-    [SerializeField]
-    private Text scoreText;
+    [SerializeField] private Transform playerTrans;
+    [SerializeField] private Text scoreText;
 
     void Update()
     {

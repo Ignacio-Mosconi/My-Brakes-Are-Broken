@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4740336308892194}
   - component: {fileID: 33517037211143070}
   - component: {fileID: 23097671036041034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Back-Left Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4060197388776450}
   - component: {fileID: 33098180555064392}
   - component: {fileID: 23561815409159940}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4091777869850290}
   - component: {fileID: 33770236584250750}
   - component: {fileID: 23467652635302534}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Back-Right Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4807085725075664}
   - component: {fileID: 33217838837842382}
   - component: {fileID: 23267111872381058}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Front-Left Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4264702776027586}
   - component: {fileID: 33504704360165176}
   - component: {fileID: 23485213654190054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Front-Right Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 4953482150037758}
   - component: {fileID: 54815617140928218}
   - component: {fileID: 65020447620247318}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Car 4
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
