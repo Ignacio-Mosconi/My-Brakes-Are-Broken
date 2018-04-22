@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel()
     {
         completeLevelUI.SetActive(true);
+        Invoke("RestartLevel", restartDelay);
     }
 
     public bool GetGameOver()

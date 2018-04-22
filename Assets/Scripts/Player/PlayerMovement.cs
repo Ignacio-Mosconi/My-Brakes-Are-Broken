@@ -5,9 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float acceleration;
     [SerializeField] private float turningSpeed;
-    [SerializeField] private int fallingLimit;
     private Rigidbody rigidBody;
-    private bool canTurn = true;
+    private bool[] canTurn = { true, true };
 
     void Start()
     {
@@ -16,20 +15,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        float turn = Input.GetAxis("Horizontal");
+
         rigidBody.AddForce(0, 0, acceleration * Time.deltaTime, ForceMode.Acceleration);
-        if (canTurn)
-        {
-            float turn = Input.GetAxis("Horizontal");
+        if ((turn < 0 && canTurn[0]) || (turn > 0 && canTurn[1]))
             rigidBody.AddRelativeForce(turningSpeed * turn * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-        }
-        if (rigidBody.position.y < fallingLimit) 
-           FindObjectOfType<GameManager>().EndGame();
     }
 
-    public bool CanTurn
+    public bool CanTurnLeft
     {
-        get { return canTurn; }
-        set { canTurn = value; }
+        get { return canTurn[0]; }
+        set { canTurn[0] = value; }
     }
 
+    public bool CanTurnRight
+    {
+        get { return canTurn[1]; }
+        set { canTurn[1] = value; }
+    }
 }

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4841540452931494}
   - component: {fileID: 33075748356520944}
   - component: {fileID: 23012814944036912}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Right Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4657754665070976}
   - component: {fileID: 33451694921353382}
   - component: {fileID: 23168395291203388}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Left Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4899134132932358}
   - component: {fileID: 33717869051543420}
   - component: {fileID: 23023285844542900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Left Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4170369779961076}
   - component: {fileID: 33319819628152960}
   - component: {fileID: 23286613262359948}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4886691952498766}
   - component: {fileID: 33981853350144146}
   - component: {fileID: 23350168084483966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 4542619132916178}
   - component: {fileID: 33559306513777174}
   - component: {fileID: 23943810384714176}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 4505907638723346}
   - component: {fileID: 33114649798181726}
   - component: {fileID: 23364880124731032}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Left Door Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 4970115658928210}
   - component: {fileID: 33083720644601520}
   - component: {fileID: 23474712805705094}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Right Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 4411619758876408}
   - component: {fileID: 33991925390233248}
   - component: {fileID: 23490695093551416}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Left Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 4409457031869774}
   - component: {fileID: 33946291519223816}
   - component: {fileID: 23045908752489746}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Right Window Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 4223336919884610}
   - component: {fileID: 33126346777495250}
   - component: {fileID: 23190901868846344}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Bumper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4020103352909208}
   - component: {fileID: 108464264631255462}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 4405149431494254}
   - component: {fileID: 33466278617299952}
   - component: {fileID: 23565469978651656}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 4488820325235614}
   - component: {fileID: 33509834568386586}
   - component: {fileID: 23887924528702668}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Left Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 4356858836870254}
   - component: {fileID: 33348595472509730}
   - component: {fileID: 23728217264212686}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Right Light Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 4718875920928908}
   - component: {fileID: 33866415454051000}
   - component: {fileID: 23659665880559204}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Bumper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 4788274868304580}
   - component: {fileID: 33566059284966144}
   - component: {fileID: 23400460612360820}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Left Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,13 +307,15 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4712985382496012}
-  - component: {fileID: 95657383052935026}
   - component: {fileID: 54537270961556616}
   - component: {fileID: 65762149990420506}
   - component: {fileID: 114934089541380986}
   - component: {fileID: 114104398364914848}
-  m_Layer: 0
-  m_Name: Player's Car
+  - component: {fileID: 114145144042218294}
+  - component: {fileID: 82761793797263632}
+  - component: {fileID: 82695758269611602}
+  m_Layer: 9
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -329,7 +331,7 @@ GameObject:
   - component: {fileID: 4646947453927996}
   - component: {fileID: 33150394336441884}
   - component: {fileID: 23425377959395578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Left Window Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4409397773582850}
   - component: {fileID: 108839016122550510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,7 +364,7 @@ GameObject:
   - component: {fileID: 4041265106276320}
   - component: {fileID: 33633055615906918}
   - component: {fileID: 23879598299081030}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +381,7 @@ GameObject:
   - component: {fileID: 4816230231909646}
   - component: {fileID: 33917559366578460}
   - component: {fileID: 23147648895323698}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Right Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +398,7 @@ GameObject:
   - component: {fileID: 4159922147684584}
   - component: {fileID: 33350316085786102}
   - component: {fileID: 23044327603053750}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Left Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +415,7 @@ GameObject:
   - component: {fileID: 4964405686853416}
   - component: {fileID: 33942833035015788}
   - component: {fileID: 23524262462345022}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Right Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +432,7 @@ GameObject:
   - component: {fileID: 4629418873533448}
   - component: {fileID: 33068384235632904}
   - component: {fileID: 23203393013485972}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Saloon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,7 +449,7 @@ GameObject:
   - component: {fileID: 4618463432460294}
   - component: {fileID: 33780607111828858}
   - component: {fileID: 23146008644184448}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Right Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +466,7 @@ GameObject:
   - component: {fileID: 4671544231594326}
   - component: {fileID: 33297416320184680}
   - component: {fileID: 23498215919548226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -481,7 +483,7 @@ GameObject:
   - component: {fileID: 4248348054602938}
   - component: {fileID: 33417856952936410}
   - component: {fileID: 23727452962425260}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Right Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +500,7 @@ GameObject:
   - component: {fileID: 4174147539742492}
   - component: {fileID: 33268657846492734}
   - component: {fileID: 23271011063233232}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Left Light Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +517,7 @@ GameObject:
   - component: {fileID: 4105485259438474}
   - component: {fileID: 33266331902778784}
   - component: {fileID: 23042835695992654}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back Right Window Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +534,7 @@ GameObject:
   - component: {fileID: 4461011828450524}
   - component: {fileID: 33807667456867736}
   - component: {fileID: 23646635059060718}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Left Window Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +551,7 @@ GameObject:
   - component: {fileID: 4325484135453412}
   - component: {fileID: 33546582301271960}
   - component: {fileID: 23498151758486388}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Front Right Door Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +864,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1609873451588618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.049, y: 0.469, z: 0}
+  m_LocalPosition: {x: -0.049, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4718875920928908}
@@ -2226,7 +2228,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 4
   m_CollisionDetection: 0
 --- !u!65 &65762149990420506
 BoxCollider:
@@ -2240,23 +2242,166 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.617616, y: 1.3997889, z: 4.459099}
   m_Center: {x: -0.00011020899, y: 0.3098887, z: 0.006351471}
---- !u!95 &95657383052935026
-Animator:
-  serializedVersion: 3
+--- !u!82 &82695758269611602
+AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1609873451588618}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: df7495afdce80f54694ff3d2fae828ac, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1.2
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &82761793797263632
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1609873451588618}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1.5
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!108 &108464264631255462
 Light:
   m_ObjectHideFlags: 1
@@ -2340,9 +2485,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f72161cd43e1940abc0519aacab9f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceleration: 1500
-  turningSpeed: 50
-  fallingLimit: 0
+  acceleration: 1000
+  turningSpeed: 25
+--- !u!114 &114145144042218294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1609873451588618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94941858778215c449e9fa8c73ad1a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  amount: 60
 --- !u!114 &114934089541380986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2354,3 +2511,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09881cc6988bdc843b7ba8418842682a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  acceleration: {fileID: 82761793797263632}
+  crash: {fileID: 82695758269611602}

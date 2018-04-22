@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Obstacle
   - Road
+  - LeftEdge
+  - RightEdge
   layers:
   - Default
   - TransparentFX
