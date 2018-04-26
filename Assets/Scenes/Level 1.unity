@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 114952885}
   - component: {fileID: 114952884}
   m_Layer: 0
-  m_Name: Game Manager
+  m_Name: Level Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTrans: {fileID: 851381284}
   completeLevelUI: {fileID: 1903654043}
-  restartDelay: 0.75
+  restartDelay: 1.5
 --- !u!4 &114952885
 Transform:
   m_ObjectHideFlags: 0
@@ -1130,6 +1130,11 @@ Prefab:
       propertyPath: skid
       value: 
       objectReference: {fileID: 1951985003}
+    - target: {fileID: 114145144042218294, guid: 560dceecf3823654d89eb7f8941c6b3b,
+        type: 2}
+      propertyPath: amount
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 560dceecf3823654d89eb7f8941c6b3b, type: 2}
   m_IsPrefabParent: 0
@@ -2065,7 +2070,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 700751f909c3b28469e18b94844d6511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 114952884}
 --- !u!23 &1163076806
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2896,7 +2900,7 @@ GameObject:
   - component: {fileID: 1917843833}
   - component: {fileID: 1917843835}
   m_Layer: 5
-  m_Name: Score Text
+  m_Name: Distance Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2971,7 +2975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTrans: {fileID: 851381284}
-  scoreText: {fileID: 1917843833}
+  distanceText: {fileID: 1917843833}
 --- !u!82 &1951985003 stripped
 AudioSource:
   m_PrefabParentObject: {fileID: 82695758269611602, guid: 560dceecf3823654d89eb7f8941c6b3b,

@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class PlayerFuel : MonoBehaviour 
 {
-    [SerializeField] private GameManager gameManager;
     [SerializeField] private float amount;
 	
 	void Update() 
 	{
         amount -= Time.deltaTime;
         if (amount < 0)
-            gameManager.EndGame();
+            LevelManager.Instance.EndGame();
 	}
 
     public float Amount

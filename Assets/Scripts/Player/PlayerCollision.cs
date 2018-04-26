@@ -4,7 +4,6 @@
 
 public class PlayerCollision : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
     [SerializeField] private AudioSource acceleration;
     [SerializeField] private AudioSource skid;
     private PlayerMovement playerMovement;
@@ -22,7 +21,7 @@ public class PlayerCollision : MonoBehaviour
                 playerMovement.enabled = false;
                 acceleration.Stop();
                 skid.Play();
-                gameManager.EndGame();
+                LevelManager.Instance.EndGame();
                 break;
             case "LeftEdge":
                 playerMovement.CanTurnLeft = false;
