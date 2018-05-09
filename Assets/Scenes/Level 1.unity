@@ -633,6 +633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!1 &172897785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,6 +1155,14 @@ Prefab:
       propertyPath: m_Name
       value: Coin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
   m_IsPrefabParent: 0
@@ -1476,6 +1486,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!1001 &287696654
 Prefab:
   m_ObjectHideFlags: 0
@@ -2013,6 +2025,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!4 &409498186 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4932432618290132, guid: 2a8a6172fca5c164aa08b619a84e2918,
@@ -2226,7 +2240,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8.7
+      value: -6.7
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2234,7 +2248,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 617.8
+      value: 655.5
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2259,6 +2273,14 @@ Prefab:
     - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_Name
       value: Coin (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
@@ -2783,6 +2805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!1001 &651400508
 Prefab:
   m_ObjectHideFlags: 0
@@ -2792,7 +2816,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.7
+      value: -5.98
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2800,7 +2824,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 583.65
+      value: 604.43
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2825,6 +2849,14 @@ Prefab:
     - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_Name
       value: Coin (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
@@ -2913,6 +2945,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!4 &664924949 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4932432618290132, guid: 2a8a6172fca5c164aa08b619a84e2918,
@@ -3291,6 +3325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!1001 &749063321
 Prefab:
   m_ObjectHideFlags: 0
@@ -3544,6 +3580,14 @@ Prefab:
       propertyPath: m_Name
       value: Coin (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
   m_IsPrefabParent: 0
@@ -3710,6 +3754,14 @@ Prefab:
     - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_Name
       value: Coin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
@@ -3897,6 +3949,14 @@ Prefab:
     - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_Name
       value: Coin (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
@@ -4146,6 +4206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!4 &950474531 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4932432618290132, guid: 2a8a6172fca5c164aa08b619a84e2918,
@@ -4557,15 +4619,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4672550643919348, guid: eb7ef1ae5a7786749a1f2bd4e641c3bf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.9416206
+      value: -2.71
       objectReference: {fileID: 0}
     - target: {fileID: 4672550643919348, guid: eb7ef1ae5a7786749a1f2bd4e641c3bf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.79999995
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 4672550643919348, guid: eb7ef1ae5a7786749a1f2bd4e641c3bf, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 821.6
+      value: 822.16
       objectReference: {fileID: 0}
     - target: {fileID: 4672550643919348, guid: eb7ef1ae5a7786749a1f2bd4e641c3bf, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5458,22 +5520,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4932432618290132, guid: 2a8a6172fca5c164aa08b619a84e2918,
     type: 2}
   m_PrefabInternal: {fileID: 1755042724}
---- !u!1 &1417368794 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787,
-    type: 2}
-  m_PrefabInternal: {fileID: 1242236776}
---- !u!114 &1417368797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1417368794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1448911059
 Prefab:
   m_ObjectHideFlags: 0
@@ -5727,6 +5773,14 @@ Prefab:
       propertyPath: m_Name
       value: Coin (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
   m_IsPrefabParent: 0
@@ -5810,6 +5864,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!1 &1555138855
 GameObject:
   m_ObjectHideFlags: 0
@@ -6076,7 +6132,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.3
+      value: -2.39
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.y
@@ -6084,7 +6140,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 806.2
+      value: 840.04
       objectReference: {fileID: 0}
     - target: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6109,6 +6165,14 @@ Prefab:
     - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_Name
       value: Coin (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
@@ -6213,6 +6277,14 @@ Prefab:
     - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
       propertyPath: m_Name
       value: Coin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653999302574108, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315201940600608, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b3f498df2514734b88e3ead56a0b787, type: 2}
@@ -6519,15 +6591,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4808813821964252, guid: bb75464ddb5b24a4b92610b9654181d2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 4.31
+      value: 2.92
       objectReference: {fileID: 0}
     - target: {fileID: 4808813821964252, guid: bb75464ddb5b24a4b92610b9654181d2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.6884155
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 4808813821964252, guid: bb75464ddb5b24a4b92610b9654181d2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 859
+      value: 859.58
       objectReference: {fileID: 0}
     - target: {fileID: 4808813821964252, guid: bb75464ddb5b24a4b92610b9654181d2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -6556,6 +6628,11 @@ Prefab:
     - target: {fileID: 4808813821964252, guid: bb75464ddb5b24a4b92610b9654181d2, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 22.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 82120746591663654, guid: bb75464ddb5b24a4b92610b9654181d2,
+        type: 2}
+      propertyPath: MinDistance
+      value: 0.7915845
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb75464ddb5b24a4b92610b9654181d2, type: 2}
@@ -6824,6 +6901,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1879092014}
+  - component: {fileID: 1879092015}
   m_Layer: 0
   m_Name: Score Manager
   m_TagString: Untagged
@@ -6844,6 +6922,22 @@ Transform:
   m_Father: {fileID: 244985669}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879092015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879092013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1e7d6aa6aca934fba47622829b44b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onScoreChange:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &1892514522
 Prefab:
   m_ObjectHideFlags: 0
@@ -7340,6 +7434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinParticles: {fileID: 0}
+  particlesDuration: 0
 --- !u!1 &2016928150
 GameObject:
   m_ObjectHideFlags: 0

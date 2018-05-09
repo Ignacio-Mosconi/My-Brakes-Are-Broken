@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4502720240532308}
   - component: {fileID: 33607523212322800}
   - component: {fileID: 23747452029435198}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Coin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,8 @@ GameObject:
   - component: {fileID: 4376435845312818}
   - component: {fileID: 111030428503489836}
   - component: {fileID: 65490663341309988}
-  m_Layer: 0
+  - component: {fileID: 114439751629121728}
+  m_Layer: 11
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1653999302574108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75940967, y: -1.796, z: 54.09}
+  m_LocalPosition: {x: -0.75940967, y: -2.066, z: 54.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4502720240532308}
@@ -140,3 +141,17 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &114439751629121728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653999302574108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed23b2760b82e914daf9a04775b5bab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinParticles: {fileID: 1714865026288306, guid: fed53d53193ebc4498eb65513e54c3a7,
+    type: 2}
+  particlesDuration: 3
