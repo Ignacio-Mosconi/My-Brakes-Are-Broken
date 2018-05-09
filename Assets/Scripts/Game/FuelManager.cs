@@ -19,7 +19,7 @@ public class FuelManager : MonoBehaviour
     {
         fuelAmount -= Time.deltaTime;
         if (fuelAmount <= 0)
-            LevelManager.Instance.EndGame();
+            LevelManager.Instance.FailLevel();
     }
 
     public FuelManager Instance

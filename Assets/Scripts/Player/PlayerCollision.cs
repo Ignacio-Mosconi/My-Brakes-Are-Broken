@@ -21,7 +21,7 @@ public class PlayerCollision : MonoBehaviour
                 playerMovement.enabled = false;
                 acceleration.Stop();
                 skid.Play();
-                LevelManager.Instance.EndGame();
+                LevelManager.Instance.FailLevel();
                 break;
             case "LeftEdge":
                 playerMovement.CanTurnLeft = false;

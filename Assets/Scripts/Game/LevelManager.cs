@@ -6,6 +6,8 @@ public class LevelManager : MonoBehaviour
     private static LevelManager instance;
     [SerializeField] private Transform playerTrans;
     [SerializeField] private GameObject completeLevelUI;
+    [SerializeField] private GameObject failLevelUI;
+    [SerializeField] private AudioSource music;
     [SerializeField] private float restartDelay;
     private bool gameOver = false;
 
@@ -22,19 +24,26 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void EndGame()
+    public void FailLevel()
     {
         if (!gameOver)
         {
             gameOver = true;
+            music.Stop();
+            failLevelUI.SetActive(true);
             Invoke("RestartLevel", restartDelay);
         }
     }
 
     public void CompleteLevel()
     {
-        completeLevelUI.SetActive(true);
-        Invoke("RestartLevel", restartDelay);
+        if (!gameOver)
+        {
+            gameOver = true;
+            music.Stop();
+            completeLevelUI.SetActive(true);
+            Invoke("RestartLevel", restartDelay);
+        }
     }
 
     public static LevelManager Instance

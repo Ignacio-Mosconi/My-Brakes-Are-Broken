@@ -9,12 +9,8 @@ public class DistanceUI : MonoBehaviour
     void Update()
     {
         if (!LevelManager.Instance.GameOver)
-        {
             distanceText.text = playerTrans.position.z.ToString("0") + " m";
-        }
         else
-        {
             distanceText.enabled = false;
-        }
     }
 }
