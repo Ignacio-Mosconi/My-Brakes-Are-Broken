@@ -12,7 +12,7 @@ public class FuelManager : MonoBehaviour
         if (Instance == this)
             Debug.Log("The Fuel Manager has been initialized correctly.", gameObject);
         else
-            Debug.Log("The level already had a Fuel Manager.", Instance);
+            Debug.LogError("The level already had a Fuel Manager.", Instance);
     }
 
     void Update()

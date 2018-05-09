@@ -305,6 +305,7 @@
     <Compile Include="Assets\Scripts\Game\FinishLevel.cs" />
     <Compile Include="Assets\Scripts\Game\FuelManager.cs" />
     <Compile Include="Assets\Scripts\Game\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Game\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Obstacles\ObstacleCrash.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
