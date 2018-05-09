@@ -8,15 +8,25 @@ public class HUD : MonoBehaviour
     [SerializeField] private Image fuelBar;
     [SerializeField] private Text scoreText;
 
+    void Start()
+    {
+        ScoreManager.Instance.OnScoreChange.AddListener(RefreshScore);
+        RefreshScore();
+    }
+
     void Update()
     {
         if (!LevelManager.Instance.GameOver)
         {
             distanceText.text = playerTrans.position.z.ToString("0") + " m";
             fuelBar.fillAmount = FuelManager.Instance.FuelAmount / FuelManager.Instance.MaxFuel;
-            scoreText.text = ScoreManager.Instance.Score.ToString();
         }
         else
             gameObject.SetActive(false);
+    }
+
+    private void RefreshScore()
+    {
+        scoreText.text = ScoreManager.Instance.Score.ToString();
     }
 }

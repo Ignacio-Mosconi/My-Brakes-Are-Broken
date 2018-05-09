@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ScoreManager : MonoBehaviour 
 {
     private static ScoreManager instance;
-    private int score;
+    [SerializeField] private UnityEvent onScoreChange;
+    private int score = 0;
 
     void Awake()
     {
@@ -30,9 +32,18 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    public UnityEvent OnScoreChange
+    {
+        get { return onScoreChange; }
+    }
+
     public int Score
     {
         get { return score; }
-        set { score = value; }
+        set
+        {
+            score = value;
+            OnScoreChange.Invoke();
+        }
     }
 }

@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 54003758978674770}
   - component: {fileID: 65663072051591450}
   - component: {fileID: 82120746591663654}
+  - component: {fileID: 114888437854584816}
   m_Layer: 10
   m_Name: Bus 2
   m_TagString: Obstacle
@@ -510,3 +511,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114888437854584816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1403595351914592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dca6d2a9ca4da44580f293b0918b612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crash: {fileID: 82120746591663654}
