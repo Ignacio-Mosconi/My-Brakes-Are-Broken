@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     private static LevelManager instance;
-    [SerializeField] private Transform playerTrans;
     [SerializeField] private GameObject completeLevelUI;
     [SerializeField] private GameObject failLevelUI;
     [SerializeField] private AudioSource music;

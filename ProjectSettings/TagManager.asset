@@ -9,6 +9,7 @@ TagManager:
   - LeftEdge
   - RightEdge
   - Collectable
+  - Street Obstacle
   layers:
   - Default
   - TransparentFX

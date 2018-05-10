@@ -89,8 +89,8 @@ GameObject:
   - component: {fileID: 4616602458742442}
   - component: {fileID: 54581291856591646}
   - component: {fileID: 65913268824987644}
-  - component: {fileID: 114721511195015710}
   - component: {fileID: 82788921109358226}
+  - component: {fileID: 114721511195015710}
   m_Layer: 10
   m_Name: Car 2
   m_TagString: Obstacle
@@ -523,4 +523,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dca6d2a9ca4da44580f293b0918b612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crash: {fileID: 82788921109358226}
+  crashSound: {fileID: 82788921109358226}

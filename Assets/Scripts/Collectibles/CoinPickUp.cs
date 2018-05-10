@@ -14,7 +14,7 @@ public class CoinPickUp : MonoBehaviour
         {
             ScoreManager.Instance.Score++;
             pickUpSound.Play();
-            GameObject sparks = Instantiate(coinParticles, transform.position, transform.rotation);
+            coinParticles = Instantiate(coinParticles, transform.position, transform.rotation);
             Destroy(gameObject, pickUpSound.clip.length);
         }
     }

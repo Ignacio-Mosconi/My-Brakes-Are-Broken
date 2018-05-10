@@ -4,8 +4,7 @@
 
 public class PlayerCollision : MonoBehaviour
 {
-    [SerializeField] private AudioSource acceleration;
-    [SerializeField] private AudioSource skid;
+    [SerializeField] private AudioSource skidSound;
     private PlayerMovement playerMovement;
 
     void Start()
@@ -18,18 +17,20 @@ public class PlayerCollision : MonoBehaviour
         switch (collisionInfo.collider.tag)
         {
             case "Obstacle":
-                playerMovement.enabled = false;
-                acceleration.Stop();
-                skid.Play();
+                playerMovement.StopMoving();
+                skidSound.Play();
                 LevelManager.Instance.FailLevel();
                 break;
             case "LeftEdge":
                 playerMovement.CanTurnLeft = false;
-                skid.Play();
+                skidSound.Play();
                 break;
             case "RightEdge":
                 playerMovement.CanTurnRight = false;
-                skid.Play();
+                skidSound.Play();
+                break;
+            case "Street Obstacle":
+                playerMovement.Decelerate();
                 break;
         }
     }
@@ -40,11 +41,11 @@ public class PlayerCollision : MonoBehaviour
         {
             case "LeftEdge":
                 playerMovement.CanTurnLeft = true;
-                skid.Stop();
+                skidSound.Stop();
                 break;
             case "RightEdge":
                 playerMovement.CanTurnRight = true;
-                skid.Stop();
+                skidSound.Stop();
                 break;
         }
     }

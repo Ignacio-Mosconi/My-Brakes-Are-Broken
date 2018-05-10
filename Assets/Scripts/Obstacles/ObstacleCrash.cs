@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class ObstacleCrash : MonoBehaviour 
 {
-    [SerializeField] private AudioSource crash;
+    [SerializeField] private AudioSource crashSound;
 	
 	void OnCollisionEnter(Collision collisionInfo) 
 	{
 		if (collisionInfo.collider.CompareTag("Player"))
         {
-            crash.Play();
+            crashSound.Play();
         }
 	}
 }

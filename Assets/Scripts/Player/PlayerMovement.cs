@@ -5,6 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float acceleration;
     [SerializeField] private float turningSpeed;
+    [SerializeField] private AudioSource accelerationSound;
+    [SerializeField] private float streetObstacleSpeedReduction;
     private Rigidbody rigidBody;
     private bool[] canTurn = { true, true };
 
@@ -20,6 +22,17 @@ public class PlayerMovement : MonoBehaviour
         rigidBody.AddForce(0, 0, acceleration * Time.deltaTime, ForceMode.Acceleration);
         if ((turn < 0 && canTurn[0]) || (turn > 0 && canTurn[1]))
             rigidBody.AddRelativeForce(turningSpeed * turn * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+    }
+
+    public void StopMoving()
+    {
+        enabled = false;
+        accelerationSound.Stop();
+    }
+
+    public void Decelerate()
+    {
+        rigidBody.AddForce(0, 0, -streetObstacleSpeedReduction, ForceMode.VelocityChange);
     }
 
     public bool CanTurnLeft

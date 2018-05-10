@@ -1,17 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Events;
 
 public class FuelManager : MonoBehaviour 
 {
     private static FuelManager instance;
-    [SerializeField] private float fuelAmount;
-    [SerializeField] private Image fuelBar;
+    [SerializeField] private float maxFuel;
     [SerializeField] private PlayerMovement playerMovement;
-    [SerializeField] private AudioSource playerAcceleration;
-    private float maxFuel;
+    private float fuelAmount = 0;
 
     void Awake()
     {
@@ -23,7 +19,7 @@ public class FuelManager : MonoBehaviour
 
     void Start()
     {
-        maxFuel = fuelAmount;
+        fuelAmount = maxFuel;
     }
 
     void Update()
@@ -31,8 +27,7 @@ public class FuelManager : MonoBehaviour
         fuelAmount -= Time.deltaTime;
         if (fuelAmount <= 0)
         {
-            playerMovement.enabled = false;
-            playerAcceleration.Stop();
+            playerMovement.StopMoving();
             LevelManager.Instance.FailLevel();
         }
     }

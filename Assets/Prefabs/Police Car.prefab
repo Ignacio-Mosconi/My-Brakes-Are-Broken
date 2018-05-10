@@ -527,4 +527,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dca6d2a9ca4da44580f293b0918b612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crash: {fileID: 82567805322092700}
+  crashSound: {fileID: 82567805322092700}
