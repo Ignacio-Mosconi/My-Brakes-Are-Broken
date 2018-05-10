@@ -289,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 67326812}
   m_Layer: 0
-  m_Name: Collectibles
+  m_Name: Collectables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1447,6 +1447,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuelAmount: 30
   fuelBar: {fileID: 172897787}
+  playerMovement: {fileID: 2020864038}
+  playerAcceleration: {fileID: 2020864037}
 --- !u!4 &283920109 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4376435845312818, guid: 9b3f498df2514734b88e3ead56a0b787,
@@ -7370,6 +7372,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!82 &2020864037 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82761793797263632, guid: 560dceecf3823654d89eb7f8941c6b3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 490907038}
+--- !u!114 &2020864038 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114104398364914848, guid: 560dceecf3823654d89eb7f8941c6b3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 490907038}
+  m_Script: {fileID: 11500000, guid: 83f72161cd43e1940abc0519aacab9f0, type: 3}
 --- !u!1 &2024295658
 GameObject:
   m_ObjectHideFlags: 0

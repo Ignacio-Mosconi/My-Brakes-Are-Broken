@@ -55,6 +55,7 @@ public class FuelManager : MonoBehaviour
     public float FuelAmount
     {
         get { return fuelAmount; }
+        set { fuelAmount = value; }
     }
 
     public float MaxFuel

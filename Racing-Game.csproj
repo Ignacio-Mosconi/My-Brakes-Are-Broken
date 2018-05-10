@@ -303,6 +303,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CoinPickUp.cs" />
+    <Compile Include="Assets\Scripts\Collectibles\GasCanPickUp.cs" />
     <Compile Include="Assets\Scripts\Game Management\FinishLevel.cs" />
     <Compile Include="Assets\Scripts\Game Management\FuelManager.cs" />
     <Compile Include="Assets\Scripts\Game Management\LevelManager.cs" />
