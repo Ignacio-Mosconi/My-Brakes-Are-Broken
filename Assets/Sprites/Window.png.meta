@@ -3,7 +3,10 @@ guid: a5030342d7465c142bd94482634e8f7d
 timeCreated: 1525884584
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Window_0
+    21300002: Window
+    21300004: Window_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -98,7 +101,49 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Window_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 420
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Window
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 28
+        width: 420
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 120, y: 60, z: 120, w: 60}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Window_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 22
+        width: 420
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: HUD

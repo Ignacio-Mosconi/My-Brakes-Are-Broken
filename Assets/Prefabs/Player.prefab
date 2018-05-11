@@ -2488,6 +2488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 750
   turningSpeed: 25
+  maxSpeed: 80
   accelerationSound: {fileID: 82761793797263632}
   streetObstacleSpeedReduction: 10
 --- !u!114 &114934089541380986

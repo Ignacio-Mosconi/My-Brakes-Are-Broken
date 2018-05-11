@@ -17,7 +17,7 @@ public class GasCanPickUp : MonoBehaviour
                 FuelManager.Instance.FuelAmount + fuelRestoreAmount : FuelManager.Instance.MaxFuel;
 
             pickUpSound.Play();
-            GameObject sparks = Instantiate(gasCanParticles, transform.position, transform.rotation);
+            gasCanParticles = Instantiate(gasCanParticles, transform.position, transform.rotation);
             Destroy(gameObject, pickUpSound.clip.length);
         }
     }

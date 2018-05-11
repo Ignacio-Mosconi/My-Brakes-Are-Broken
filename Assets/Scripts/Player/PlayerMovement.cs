@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float acceleration;
     [SerializeField] private float turningSpeed;
+    [SerializeField] private float maxSpeed;
     [SerializeField] private AudioSource accelerationSound;
     [SerializeField] private float streetObstacleSpeedReduction;
     private Rigidbody rigidBody;
@@ -19,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     {
         float turn = Input.GetAxis("Horizontal");
 
-        rigidBody.AddForce(0, 0, acceleration * Time.deltaTime, ForceMode.Acceleration);
+        if (rigidBody.velocity.z < maxSpeed)
+            rigidBody.AddForce(0, 0, acceleration * Time.deltaTime, ForceMode.Acceleration);
         if ((turn < 0 && canTurn[0]) || (turn > 0 && canTurn[1]))
             rigidBody.AddRelativeForce(turningSpeed * turn * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
     }
