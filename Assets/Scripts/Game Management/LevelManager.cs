@@ -24,7 +24,6 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -45,7 +44,6 @@ public class LevelManager : MonoBehaviour
             gameOver = true;
             music.Stop();
             completeLevelUI.SetActive(true);
-            Time.timeScale = 0f;
         }
     }
 
