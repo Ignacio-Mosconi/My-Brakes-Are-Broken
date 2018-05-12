@@ -863,7 +863,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1609873451588618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.049, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4718875920928908}
@@ -2413,9 +2413,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.89705884, g: 0.8315535, b: 0.6596021, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 5
+  m_Intensity: 3
+  m_Range: 50
+  m_SpotAngle: 10
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -2449,9 +2449,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.89705884, g: 0.8315535, b: 0.6596021, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 5
+  m_Intensity: 3
+  m_Range: 50
+  m_SpotAngle: 10
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 750
   turningSpeed: 25
-  maxSpeed: 80
+  maxSpeed: 30
   accelerationSound: {fileID: 82761793797263632}
   streetObstacleSpeedReduction: 10
 --- !u!114 &114934089541380986
