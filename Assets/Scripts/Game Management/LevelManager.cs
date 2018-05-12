@@ -7,7 +7,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject completeLevelUI;
     [SerializeField] private GameObject failLevelUI;
     [SerializeField] private AudioSource music;
-    [SerializeField] private float restartDelay;
     private bool gameOver = false;
 
     void Awake()
@@ -18,9 +17,14 @@ public class LevelManager : MonoBehaviour
             Debug.LogError("The scene already had a Level Manager.", Instance);
     }
 
-    void RestartLevel()
+    public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void FailLevel()
@@ -30,7 +34,6 @@ public class LevelManager : MonoBehaviour
             gameOver = true;
             music.Stop();
             failLevelUI.SetActive(true);
-            Invoke("RestartLevel", restartDelay);
         }
     }
 
@@ -41,7 +44,6 @@ public class LevelManager : MonoBehaviour
             gameOver = true;
             music.Stop();
             completeLevelUI.SetActive(true);
-            Invoke("RestartLevel", restartDelay);
         }
     }
 
