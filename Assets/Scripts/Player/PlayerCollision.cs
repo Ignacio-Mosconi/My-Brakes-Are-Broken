@@ -23,10 +23,12 @@ public class PlayerCollision : MonoBehaviour
                 break;
             case "LeftEdge":
                 playerMovement.CanTurnLeft = false;
+                Debug.Log("Edge.");
                 skidSound.Play();
                 break;
             case "RightEdge":
                 playerMovement.CanTurnRight = false;
+                Debug.Log("Edge.");
                 skidSound.Play();
                 break;
             case "Street Obstacle":
