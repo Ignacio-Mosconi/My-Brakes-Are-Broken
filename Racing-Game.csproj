@@ -317,6 +317,7 @@
     <Compile Include="Assets\Scripts\User Interface\MainMenu.cs" />
     <Compile Include="Assets\Scripts\User Interface\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\User Interface\SettingsMenu.cs" />
+    <Compile Include="Assets\Scripts\User Interface\StatsMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

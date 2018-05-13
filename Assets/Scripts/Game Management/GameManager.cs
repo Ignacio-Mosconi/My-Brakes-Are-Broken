@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     [SerializeField] private float volumeSliderValue;
+    private float distanceTraveled = 0;
+    private int coinsCollected = 0;
 
     void Awake()
     {
@@ -14,8 +16,6 @@ public class GameManager : MonoBehaviour
             Debug.Log("The Game Manager has been initialized correctly.", gameObject);
             DontDestroyOnLoad(gameObject);
         }
-        else
-            Debug.LogError("The game already had a Game Manager.", Instance);
     }
 
     public static GameManager Instance
@@ -37,5 +37,17 @@ public class GameManager : MonoBehaviour
     {
         get { return volumeSliderValue; }
         set { volumeSliderValue = value; }
+    }
+
+    public float DistanceTraveled
+    {
+        get { return distanceTraveled; }
+        set { distanceTraveled = value; }
+    }
+
+    public int CoinsCollected
+    {
+        get { return coinsCollected; }
+        set { coinsCollected = value; }
     }
 }
