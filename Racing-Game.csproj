@@ -306,6 +306,7 @@
     <Compile Include="Assets\Scripts\Collectibles\GasCanPickUp.cs" />
     <Compile Include="Assets\Scripts\Game Management\FinishLevel.cs" />
     <Compile Include="Assets\Scripts\Game Management\FuelManager.cs" />
+    <Compile Include="Assets\Scripts\Game Management\GameManager.cs" />
     <Compile Include="Assets\Scripts\Game Management\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Game Management\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Obstacles\ObstacleCrash.cs" />

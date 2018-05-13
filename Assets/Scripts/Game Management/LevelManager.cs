@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject completeLevelUI;
     [SerializeField] private GameObject failLevelUI;
     [SerializeField] private AudioSource music;
+    [SerializeField] private PlayerMovement playerMovement;
     private bool gameOver = false;
 
     void Awake()
@@ -41,6 +42,7 @@ public class LevelManager : MonoBehaviour
     {
         if (!gameOver)
         {
+            playerMovement.StopMoving();
             gameOver = true;
             music.Stop();
             completeLevelUI.SetActive(true);

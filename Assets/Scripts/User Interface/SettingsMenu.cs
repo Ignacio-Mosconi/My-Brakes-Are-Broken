@@ -11,12 +11,13 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
-        volumeSlider.value = GetMixerLevel();
+        volumeSlider.value = GameManager.Instance.VolumeSliderValue;
     }
 
     public void SetVolume(float volume)
     {
-        audioMixer.SetFloat("Volume", volume);
+        GameManager.Instance.VolumeSliderValue = volume;
+        audioMixer.SetFloat("Volume", Mathf.Log(volume) * 12);
     }
 
     private float GetMixerLevel()

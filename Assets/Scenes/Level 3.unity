@@ -550,6 +550,7 @@ MonoBehaviour:
   completeLevelUI: {fileID: 1663379228}
   failLevelUI: {fileID: 1379406091}
   music: {fileID: 1555138856}
+  playerMovement: {fileID: 2020864038}
 --- !u!4 &114952885
 Transform:
   m_ObjectHideFlags: 0
