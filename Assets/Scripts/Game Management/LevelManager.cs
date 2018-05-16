@@ -19,6 +19,11 @@ public class LevelManager : MonoBehaviour
             Debug.LogError("The scene already had a Level Manager.", Instance);
     }
 
+    void Start()
+    {
+        Cursor.visible = false;
+    }
+
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

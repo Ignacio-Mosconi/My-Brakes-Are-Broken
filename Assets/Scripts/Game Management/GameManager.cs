@@ -18,6 +18,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        Screen.SetResolution(480, 854, false);
+    }
+
     public static GameManager Instance
     {
         get

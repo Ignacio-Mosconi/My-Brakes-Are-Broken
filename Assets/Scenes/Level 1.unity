@@ -3607,34 +3607,6 @@ Prefab:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 851381284}
-    - target: {fileID: 114376127847514364, guid: 48781cb034fa3b3428c0b5478dc863ef,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114376127847514364, guid: 48781cb034fa3b3428c0b5478dc863ef,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114691828564575710, guid: 48781cb034fa3b3428c0b5478dc863ef,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114691828564575710, guid: 48781cb034fa3b3428c0b5478dc863ef,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942252940999702, guid: 48781cb034fa3b3428c0b5478dc863ef, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1059476438267414, guid: 48781cb034fa3b3428c0b5478dc863ef, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 48781cb034fa3b3428c0b5478dc863ef, type: 2}
   m_IsPrefabParent: 0

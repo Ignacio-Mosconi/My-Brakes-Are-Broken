@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class EndLevelMenu : MonoBehaviour 
 {
+    void Start()
+    {
+        Cursor.visible = true;
+    }
+
     public void Restart()
     {
         LevelManager.Instance.RestartLevel();

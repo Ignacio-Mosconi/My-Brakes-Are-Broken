@@ -24,6 +24,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (!LevelManager.Instance.GameOver)
         {
+            Cursor.visible = true;
             pauseMenuUI.SetActive(true);
             hudUI.SetActive(false);
             Time.timeScale = 0f;
@@ -33,6 +34,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        Cursor.visible = false;
         pauseMenuUI.SetActive(false);
         hudUI.SetActive(true);
         Time.timeScale = 1f;

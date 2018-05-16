@@ -2490,7 +2490,7 @@ MonoBehaviour:
   turningSpeed: 25
   maxSpeed: 30
   accelerationSound: {fileID: 82761793797263632}
-  streetObstacleSpeedReduction: 2.5
+  streetObstacleSpeedReduction: 2
 --- !u!114 &114934089541380986
 MonoBehaviour:
   m_ObjectHideFlags: 1
