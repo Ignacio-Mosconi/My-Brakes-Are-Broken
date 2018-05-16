@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2300000}
   - component: {fileID: 54691294593776730}
   - component: {fileID: 65873100320377824}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SA Oil Drum 2
-  m_TagString: Untagged
+  m_TagString: Street Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

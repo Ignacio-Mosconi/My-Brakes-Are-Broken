@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33720527923904840}
   - component: {fileID: 23886413649363880}
   - component: {fileID: 111494833134210548}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Street Lamp 1
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,7 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4919513093014984}
   - component: {fileID: 108550444569395780}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

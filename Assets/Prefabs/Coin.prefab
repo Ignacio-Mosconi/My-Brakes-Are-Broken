@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 82630696410838836}
   m_Layer: 11
   m_Name: Coin
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,4 +237,3 @@ MonoBehaviour:
   coinParticles: {fileID: 1714865026288306, guid: fed53d53193ebc4498eb65513e54c3a7,
     type: 2}
   pickUpSound: {fileID: 82630696410838836}
-  particlesDuration: 3

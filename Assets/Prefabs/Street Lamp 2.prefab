@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4183827447638752}
   - component: {fileID: 108063786580978140}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Left Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4396670562621138}
   - component: {fileID: 108540573688170896}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Right Spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,9 +54,9 @@ GameObject:
   - component: {fileID: 33987850999250626}
   - component: {fileID: 23234100250882742}
   - component: {fileID: 111425867133671576}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Street Lamp 2
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

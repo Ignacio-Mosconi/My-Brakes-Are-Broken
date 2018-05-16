@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2300000}
   - component: {fileID: 54579419407367322}
   - component: {fileID: 65531966673651336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SA Traffic Cone
-  m_TagString: Untagged
+  m_TagString: Street Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,8 +25,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: -0.7071069, y: 0, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: -2.19499, y: 0.12947369, z: 613.44714}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: -3.9829235, y: -0.6205251, z: 232.12883}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
